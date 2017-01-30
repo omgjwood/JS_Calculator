@@ -30,10 +30,10 @@ html {
     height: 278px;
     margin: 100px auto;
     padding: 20px 20px 9px;
-    background: #9DD2EA;
-    background: linear-gradient(#9DD2EA, #8BCEEC);
+    background: white;
+    background: midnightblue;
     border-radius: 3px;
-    box-shadow: 0px 4px #009DE4, 0px 10px 15px rgba(0,0,0,0.2);
+    box-shadow: 0px 4px #b4b4b4, 0px 10px 15px ;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -49,8 +49,8 @@ html {
     height: 36px;/
     background: white;
     border-radius: 3px;
-    box-shadow: 0px 4px rgba(0,0,0,0.2);
-    color: #888;
+    box-shadow: 0px 4px white;
+    color: white;
     line-height: 36px;
     text-align: center;
     user-select: none;
@@ -64,9 +64,9 @@ html {
     height: 40px;
     width: 208px;
     padding: 0 10px;
-    background: rgba(0,0,0,0.2);
+    background: rgb(23, 173, 228);
     border-radius: 3px;
-    box-shadow: inset 0px 4px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0);
     /* Typography */
     line-height: 40px;
     color: white;
@@ -85,15 +85,15 @@ html {
 
 /* Hover FX */
 .key:hover {
-    background: #9C89F6;
-    box-shadow: 0px 4px #6D54D3;
+    background: #d3175b;
+    box-shadow: 0px 4px rgb(211, 159, 182);
     color: white;
 }
 
 /* Simulate keypress by removing box-shadow and moving key down */
 
 .key:active {
-    box-shadow: 0 0 #6D54D3;
+    box-shadow: 0 0 #d3175b;
     top: 4px;
 }
 
